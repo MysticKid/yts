@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p1{
+    height: 575vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url('b1.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 1px;
+}
+
+.nav-bar{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    padding: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar img{
+    height: 90px;
+    width: 150px;
+    margin: 20px 30px;
+}
+
+.nav-bar ul{
+    margin-left: 60%;
+    margin-top: -70px;
+    color: whitesmoke;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.nav-bar ul li:hover{color: green;cursor: pointer;transform: scale(.5);transition: 2s;}
+
+input{
+    margin-left: 30%;
+    margin-top: 2.9%;
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: transparent;
+    text-align: center;
+    outline: none;
+}
+
+input:hover{cursor: progress;border: 1px solid green;width: 200px;}
+
+.p1 h1{
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.p1 p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.p1 h6{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    text-transform: capitalize;
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.p1 i{
+    color: green;
+    font-weight: bold;
+}
+
+.box{
+    height: 300px;
+    width: 15%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('hs.jpg');
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    position: relative;
+    opacity: 0;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes box
+{
+from{left: -200px;}
+to{left: 0;opacity: 1;}    
+}
+
+.box:hover{opacity: .5;}
+
+.box1{
+    background-image:  url('av.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: box1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+}
+
+@keyframes box1
+{
+from{top: -200px;}
+to{top: 0;opacity: 1;}    
+}
+
+.box2{
+    background-image:  url('jo.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: box2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+@keyframes box2
+{
+from{top: 200px;}
+to{top: 0;opacity: 1;}    
+}
+
+.box3{
+    background-image: url('john.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: box3;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+}
+
+@keyframes box3
+{
+from{left: 200px;}
+to{left: 0;opacity: 1;}    
+}
+
+.info{
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    opacity: 0;
+    text-align: center;
+    box-sizing: border-box;
+    border: 10px solid green;
+    color: white;
+}
+
+.info h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.info:hover{opacity: 1;}
+
+.info button{
+    margin-top: 60px;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.info button:hover{cursor: pointer;transform: rotate(360deg);transition: 2s;background-color: white;color: black;}
+
+.box h3{
+    font-size: 20px;
+    color: white;
+}
+
+.cont{
+    height: 300px;
+    width: 15%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('0.png') ;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    position: relative;
+    opacity: 0;
+    animation-name: cont;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes cont
+{
+from{left: -200px;}
+to{left: 0;opacity: 1;}    
+}
+
+
+.cont:hover{opacity: .5;}
+
+.cont1{
+    background-image:  url('1.png');
+    background-size: 100% 100%;
+}
+
+.cont2{
+    background-image:  url('2.png');
+    background-size: 100% 100%;
+}
+
+.cont3{
+    background-image: url('3.png');
+    background-size: 100% 100%;
+}
+
+.cont4{
+    background-image:  url('4.png');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+@keyframes c4
+{
+from{top: -200px;}
+to{top: 0;opacity: 1;}    
+}
+
+.cont5{
+    background-image:  url('5.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+.cont6{
+    background-image: url('5.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+.cont7{
+    background-image:  url('7.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+.cont8{
+    background-image:  url('8.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+
+.cont9{
+    background-image: url('9.png');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c9;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+@keyframes c9
+{
+from{left: 200px;}
+to{left: 0;opacity: 1;}    
+}
+
+.cont10{
+    background-image: url('10.png');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c9;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+.cont11{
+    background-image: url('11.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c9;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+.cont12{
+    background-image: url('12.png');
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0;
+    animation-name: c9;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+div[class^="cont"]:hover{transform: scale(1.3);transition-duration: 2s;}
+
+#i2{
+    position: absolute;
+    margin-left: -1px;
+    margin-left: 15%;
+    margin-top: 80px;
+    height: 80px;
+    width: 70%;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+.search button{
+    margin-top: 15%;
+    margin-left: 20%;
+    outline: none;
+}
+
+.search button:hover{cursor: pointer;background-color: green;border: none;transform: rotate(360deg);transition-duration: 2s;border-radius: 20px;}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    outline: none;
+}
+
+button:hover{cursor: pointer;background-color: green;border: none;transform: rotate(360deg);transition-duration: 2s;border-radius: 20px;}
+
+
+.footer{
+    height: 80vh;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 15%;
+}
+
+.footer h6{
+    border: none;
+    margin-left: 60px;
+}
+
+#input-1{
+    width: 300px;
+    margin-left: 36%;
+}
+
+.i1{
+    margin-left: 5%;
+    width: 300px !important;
+    margin-left: 10%;
+}
+
+.i2{
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 650px !important;
+}
+
+.btn-1{
+    margin-top: 18%;
+    margin-left: 27%;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    width: 200px;
+    outline: none;
+}
+
+#icons{
+    height: 50px;
+    width: 450px;
+    margin-left: 63%;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+#icons i{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.copy{
+    height: 80vh;
+    width: 100%;
+    margin-top: -90px;
+    display: inline-block;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copy1{
+    height: 200px;
+    width: 200px;
+    background-image: url('logo.png');
+    background-size: 100% 100%;
+    align-self: flex-start;
+    background-color: white;
+}
+
+.copy2{
+    height: 200px;
+    width: 200px;
+}
+
+.copy2 h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.copy2 h4{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.copy2 h4 span{
+    color: silver;
+}
+
+.copy3{
+    height: 200px;
+    width: 200px;
+}
+
+.copy3 h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.copy3 h4{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.copy3 h4 span{
+    color: silver;
+}
+
+.copy4{
+    height: 200px;
+    width: 200px;
+    background-image: url('download.png');
+    background-size: 100% 100%;
+    align-self: flex-start;
+}
+
+.copy h2{
+    color: white;
+    margin-top: 30%;
+}
