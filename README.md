@@ -1,2 +1,2 @@
 # YTS
-YTS is an online movie downloading website template.
+YTS is an online movie downloading website template.YIFY Torrents or YTS was a peer-to-peer release group known for distributing large numbers of movies as free downloads through BitTorrent.In this template the movies are sectioned very sensitively for instance latest movies has different section and old or most downloaded movies has different section.The info about the movies is also described.
